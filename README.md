@@ -25,12 +25,12 @@ Outcome:
 
 This project aims to provide a deep understanding of sales dynamics during Christmas, enabling businesses to make strategic decisions to enhance sales, improve customer satisfaction, and optimize operational efficiency during festive periods.
 
-### DATA SOURCES
+### DATA SOURCE(S)
 FP20 Analytics
 ### TOOLS
 SQL
 POWERBI
-(dashboard)[https://app.powerbi.com/view?r=eyJrIjoiY2U1Zjg3ZjItYTc3Mi00YWZmLWIzYjMtY2U5NjAwZDNhY2EzIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9]
+    - [dashboard](https://app.powerbi.com/view?r=eyJrIjoiY2U1Zjg3ZjItYTc3Mi00YWZmLWIzYjMtY2U5NjAwZDNhY2EzIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ### DATA CLEANING
 The data provided by FP20 Analytics was a clean data with neither errors nor missing values.
@@ -229,5 +229,5 @@ The analysis of the Xmas dataset provides a comprehensive view of sales transact
 To leverage the dataset insights, businesses should tailor marketing strategies to target specific customer segments and geographical regions. Optimizing payment methods to accommodate prevalent preferences such as cash (8,262 transactions) and credit/debit cards (3,061 transactions) can significantly enhance customer satisfaction. Focusing on high-selling products like Chess Sets and Hot Wheels Car Sets, which demonstrated both high sales volumes and considerable profit margins, can optimize inventory management and potentially increase overall profitability. Targeting high-budget Christmas shoppers and capitalizing on peak sales hours, particularly at 18:00 (1,440 purchases), could maximize sales opportunities.
 
 ### Limitations
-The datasets provided was clean and easy to read.
+The datasets provided was clean and easy to read. However, the link to the pctures of stores and the countries were not accessible online.
 
