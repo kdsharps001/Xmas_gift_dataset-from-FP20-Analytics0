@@ -28,8 +28,8 @@ This project aims to provide a deep understanding of sales dynamics during Chris
 ### DATA SOURCE(S)
 FP20 Analytics
 ### TOOLS
-SQL
-POWERBI
+- SQL
+- POWERBI
     - [dashboard](https://app.powerbi.com/view?r=eyJrIjoiY2U1Zjg3ZjItYTc3Mi00YWZmLWIzYjMtY2U5NjAwZDNhY2EzIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9)
 
 ### DATA CLEANING
