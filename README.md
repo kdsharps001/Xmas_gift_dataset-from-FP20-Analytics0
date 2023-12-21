@@ -25,16 +25,17 @@ Outcome:
 
 This project aims to provide a deep understanding of sales dynamics during Christmas, enabling businesses to make strategic decisions to enhance sales, improve customer satisfaction, and optimize operational efficiency during festive periods.
 
-###DATA SOURCES
+### DATA SOURCES
 FP20 Analytics
-###TOOLS
+### TOOLS
 SQL
 POWERBI
 (dashboard)[https://app.powerbi.com/view?r=eyJrIjoiY2U1Zjg3ZjItYTc3Mi00YWZmLWIzYjMtY2U5NjAwZDNhY2EzIiwidCI6ImRmODY3OWNkLWE4MGUtNDVkOC05OWFjLWM4M2VkN2ZmOTVhMCJ9]
-###DATA CLEANING
 
+### DATA CLEANING
+The data provided by FP20 Analytics was a clean data with neither errors nor missing values.
 
-###TYPE OF ANALYSIS
+### TYPE OF ANALYSIS
 The type of analysis performed on the Christmas dataset using SQL queries within SQL Server Management Studio can be categorized as exploratory and descriptive analysis.
 
 1. **Exploratory Analysis:**
@@ -49,7 +50,7 @@ The type of analysis performed on the Christmas dataset using SQL queries within
 
 Through the SQL queries executed in SQL Server Management Studio, the analysis aimed to derive meaningful insights, understand patterns, and summarize the dataset's information without employing predictive modeling or hypothesis testing commonly associated with more advanced analytical methods like predictive analytics or inferential statistics. The focus was on understanding historical data patterns to draw actionable insights and make data-informed decisions.
 
-###DATA ANALYSIS(SQL)
+### DATA ANALYSIS(SQL)
 Below are 23 questions that was used as comments for analysis on the Xmas dataset in SQL Server Management Studio, along with SQL code to answer the questions below:
 
 1. **What is the total number of records in the dataset?**
@@ -219,7 +220,7 @@ SELECT customer_age_range, COUNT(*) AS PurchasesCount
 FROM Xmastable
 WHERE gender = 'Male'
 GROUP BY customer_age_range;
-`` `
+```
 
 ### RESULTS
 The analysis of the Xmas dataset provides a comprehensive view of sales transactions during the festive Christmas season, uncovering several crucial insights. Total sales reached $3,371,636, with a substantial profit margin of $2,579,472, reflecting the overall success during this period. The dataset portrays diverse purchase behaviors across three primary product types: children (7,566 purchases), adults (4,448 purchases), and teens (4,369 purchases), indicating varied preferences among different age ranges. Key countries such as Austria ($605,841.8), Poland ($601,634.7), and Italy ($376,893.1) emerged as top performers, suggesting potential areas for market expansion. Notably, Poland had the highest purchase count of 3,077, while the Netherlands recorded the lowest purchase count of 754 among the listed .countries
